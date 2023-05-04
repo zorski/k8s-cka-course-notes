@@ -1,0 +1,17 @@
+## CORE CONCEPTS  
+### 2.46. Solution - Imperative Commands:
+- Deploy a pod named nginx-pod using the nginx:alpine image.
+  `kubectl run nginx-pod --image=nginx:alpine`
+- Deploy a redis pod using the redis:alpine image with the labels set to tier=db.
+   `kubectl run redis --image=redis:alpine --labels="tier=db"`
+- Create a service redis-service to expose the redis application within the cluster on port 6379.
+  `kubectl expose pod redis --name="redis-service" --port=6379`
+
+
+
+## MISC
+wszystkie pody do json i wyciagam nazwe obrazu
+`kubectl get pod -o json | jq '.items[].spec.containers[].image'`
+
+definicja replicasetu do pliku yaml i do pliku
+`kubectl get replicasets new-replica-set -o yaml > new-replica-set.yaml`

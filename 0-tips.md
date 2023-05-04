@@ -1,0 +1,11 @@
+- There may not be enough time. 
+  - If you are stuck on a task, mark it for review later and move on. 
+- There are some easy tasks which you may not have time to do if you spend all your time on 1 task.
+- ctrl + c and ctrl + v are not supported. You use ctrl + insert to copy and shift + insert to paste. 
+  - If your keyboard does not have an insert button, get an external one that does.
+- Add up your marks as you go along. It will help you know how close you are to the pass mark of 66%.
+- You have a free retake in case you don’t get it the first time.
+- Kodecloud’s course is more than enough to pass.
+- It can take a bit of time to get used to the exam environment i.e copying and pasting, working with the provided notepad, switching between contexts and logging in via SSH into nodes etc
+- Bookmark the parts of the docs you will need in the exam.
+
